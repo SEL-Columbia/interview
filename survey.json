@@ -1,0 +1,142 @@
+{
+    "id": "b0816b52-204f-41d4-aaf0-ac6ae2970923",
+    "title": "Education Facility Survey",
+    "questions": [{
+        "id": "2342955c-0499-489b-bb6b-ded49f38a189",
+        "title": "Photo of Facility Exterior",
+        "hint": "",
+        "type": "photo",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "489c2131-9809-4dfe-aafd-72d34fdb29a2",
+        "title": "Location (GPS Coordinates)",
+        "hint": "",
+        "type": "location",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "98eadd86-ce86-41c9-ab7e-524e5ea12c27",
+        "title": "Community Name",
+        "hint": "",
+        "type": "text",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "e130af69-28d2-469b-8c95-6cfecd66b08b",
+        "title": "Education Type",
+        "hint": "",
+        "type": "multiple_choice",
+        "choices": [{
+            "choice_id": "3cc077e1-0061-497e-ae58-3cef4b812d11",
+            "choice_text": "government"
+        }, {
+            "choice_id": "4c047837-aa10-4464-8f80-2833fd356dd9",
+            "choice_text": "private"
+        }],
+        "logic": {},
+        "required": false
+    }, {
+        "id": "383e56d1-1335-4a4a-9591-9e647624aacc",
+        "title": "Education Level",
+        "hint": "",
+        "type": "multiple_choice",
+        "choices": [{
+            "choice_id": "7a25bcca-6988-4153-bbc0-ee2d8c9a1d6d",
+            "choice_text": {
+                "English": "primary"
+            }
+        }, {
+            "choice_id": "fd37eaf8-08ac-4706-9b8c-258bdab8f4df",
+            "choice_text": {
+                "English": "secondary"
+            }
+        }, {
+            "choice_id": "5113f4b1-29cb-420b-9d67-9b053398f556",
+            "choice_text": {
+                "English": "both"
+            }
+        }],
+        "logic": {},
+        "required": false
+    }, {
+        "id": "8f3b375c-0dbc-4c0f-9bbf-e8430c63bb4d",
+        "title": "Total Number of Students",
+        "hint": "",
+        "type": "integer",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "7b4cb78b-86d8-4203-8219-2d4d5d886db9",
+        "title": "Number of Male Students",
+        "hint": "",
+        "type": "integer",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "0bc81fe7-0ae1-48e5-b2ed-e3645dd3111f",
+        "title": "Number of Female Students",
+        "hint": "",
+        "type": "integer",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "b47f7c56-dfac-40b5-99ec-cdc8e23b7137",
+        "title": "Total Number of Full-time Teachers",
+        "hint": "",
+        "type": "integer",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "5f50ac6c-0fc2-420d-9483-ce0488bc2b24",
+        "title": "Total Number of Classrooms",
+        "hint": "",
+        "type": "integer",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "e834f4f6-8b1e-49dc-9a87-f4550f6537ff",
+        "title": "Number of Classrooms Needing Repair",
+        "hint": "",
+        "type": "integer",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "041b6712-a8d6-4cad-8900-4b46d79661bd",
+        "title": "Number of Classrooms with Useable Blackboard",
+        "hint": "",
+        "type": "integer",
+        "logic": {},
+        "required": false
+    }, {
+        "id": "2060da04-d512-4d5f-b5e1-28cdaf9e5682",
+        "title": "Type of Water Point within 100 Meters of Facility",
+        "hint": "",
+        "type": "multiple_choice",
+        "choices": [{
+            "choice_id": "0955f2c7-586f-4ba4-ba6e-c321cd3d38ff",
+            "choice_text": {
+                "English": "none"
+            }
+        }, {
+            "choice_id": "55236aaa-52e4-4ad9-b6de-673049b51185",
+            "choice_text": {
+                "English": "handpump"
+            }
+        }, {
+            "choice_id": "e8615ff2-1203-4429-a42e-a45dd55c3c19",
+            "choice_text": {
+                "English": "tap"
+            }
+        }],
+        "logic": {},
+        "required": false
+    }, {
+        "id": "e8c8b779-7060-443e-ab61-cadf5f01bcf0",
+        "title": "Number of Improved Toilets",
+        "hint": "",
+        "type": "integer",
+        "logic": {},
+        "required": false
+    }]
+}
